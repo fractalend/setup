@@ -93,8 +93,6 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 alias ll='ls -AlhFt --group-directories-first'
 alias la='ls -At'
 alias l='ls -CFAt --group-directories-first'
-#alias makemebetter='sudo apt -y update; sudo apt -y upgrade; sudo apt autoremove '
-#alias netbeanside='echo "netbeans running in the background";/home/z/netbeans-12.0/netbeans/bin/netbeans &'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
