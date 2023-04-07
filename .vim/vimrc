@@ -11,6 +11,7 @@ set shiftwidth=4
 set incsearch
 set ai
 set number
+"set relativenumber
 set hlsearch
 set ruler
 filetype plugin on
