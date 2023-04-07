@@ -14,6 +14,7 @@ time.sleep(minutes*60);
 for i in range(3):
     print("▄▄▄▄▄▄▄▄▄▄▄", end=" ", flush=True);
     time.sleep(1);
+print('\n');
 os.system(alert);
 
 
