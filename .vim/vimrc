@@ -1,21 +1,19 @@
-call plug#begin('~/.vim/plugged')
-call plug#end() 
+"coloring
 syntax on
-colorscheme onedark 
+set background=dark
+colorscheme toast 
+highlight Comment ctermfg=green
+"formatting
+set expandtab
+set tabstop=2
+set shiftwidth=2
 set autoindent
-"set spell spelllang=en_us
-set tabstop=4
-set shiftwidth=4
-"set expandtab
-"set smarttab
-set incsearch
-set ai
-set number
-"set relativenumber
+set smartindent
+"search
 set hlsearch
+set incsearch
+"navigation info
+set number
+set relativenumber
 set ruler
-filetype plugin on
-set omnifunc=syntaxcomplete#Complete
-"colorscheme DimBlue
-"colorscheme wombat256grf
-"highlight Comment ctermfg=green
+
