@@ -3,7 +3,7 @@
 for x in $(ls -A); do 
     if  grep  -v -E '^\.(git)'  <<< $x | grep  -q -E '^\.'
       then
-        if  [[ -f "../$x" || -d "../$x" ]]
+        if  [[ -e "../$x" || -h "../$x" ]]
             then 
                 rm -rf ../$x
         fi 
