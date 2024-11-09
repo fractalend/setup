@@ -4,11 +4,11 @@ import sys
 import os
 
 if(len(sys.argv) != 2 or not isinstance(int(sys.argv[1]), int)):
-    print("Usage: break <Number of Minutes>");
+    print("Usage: session.py <Number of Minutes>");
     exit();
 
-alert = "gedit stop_msg"
-print("Start");
+alert = "notify-send -a \"Session End\" STOP "
+print(f'started at  {time.ctime()}');
 minutes = int(sys.argv[1]);
 time.sleep(minutes*60);
 for i in range(3):
